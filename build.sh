@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#init submodules
+git submodule update --init --recursive
+
 # Build lovr submodule
 cd lovr
 mkdir -p build
