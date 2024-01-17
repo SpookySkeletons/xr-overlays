@@ -13,10 +13,10 @@ cd ../..
 
 # Build wlx-overlay-x submodule
 cd wlx-overlay-x
-cargo build
+cargo build --release
 cd ..
 
 # Build index_camera_passthrough submodule
 cd index_camera_passthrough
-cargo build
+cargo build --release
 cd .. 
