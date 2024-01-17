@@ -19,4 +19,4 @@ cd ..
 # Build index_camera_passthrough submodule
 cd index_camera_passthrough
 cargo build --release
-cd .. 
+cd ..
