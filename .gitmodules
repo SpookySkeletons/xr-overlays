@@ -10,3 +10,6 @@
 [submodule "index_camera_passthrough"]
 	path = index_camera_passthrough
 	url = https://github.com/yshui/index_camera_passthrough
+[submodule "wlx-overlay-s"]
+	path = wlx-overlay-s
+	url = https://github.com/galister/wlx-overlay-s
