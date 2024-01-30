@@ -13,7 +13,7 @@ trap cleanup SIGINT
 (cd ./lovr-playspace/ && ./../lovr/build/bin/lovr .) &
 
 # Run the index_camera_passthrough command in the background
-(cd ./index_camera_passthrough/ && DRI_PRIME=1 cargo run --release) &
+(cd ./index_camera_passthrough/ && DRI_PRIME=1 cargo run) &
 
 # Run the wlx-overlay-x command and monitor its output
 {
