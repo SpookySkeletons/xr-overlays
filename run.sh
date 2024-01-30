@@ -17,7 +17,7 @@ trap cleanup SIGINT
 
 # Run the wlx-overlay-x command and monitor its output
 {
-    (cd ./wlx-overlay-s/ && DRI_PRIME=1 cargo run --release) 2>&1 | while read line; do
+    (cd ./wlx-overlay-x/ && DRI_PRIME=1 cargo run --release) 2>&1 | while read line; do
         echo "$line"
         if [[ "$line" == *"XRT_ERROR_IPC_FAILURE"* ]]; then
             echo "Error detected, terminating wlx-overlay-x..."
