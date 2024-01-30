@@ -15,13 +15,13 @@ trap cleanup SIGINT
 # Run the index_camera_passthrough command in the background
 (cd ./index_camera_passthrough/ && cargo run) &
 
-# Run the wlx-overlay-x command and monitor its output
+# Run the wlx-overlay-s command and monitor its output
 {
     (cd ./wlx-overlay-x/ && DRI_PRIME=1 cargo run --release) 2>&1 | while read line; do
         echo "$line"
         if [[ "$line" == *"XRT_ERROR_IPC_FAILURE"* ]]; then
-            echo "Error detected, terminating wlx-overlay-x..."
-            pkill wlx-overlay-x
+            echo "Error detected, terminating wlx-overlay-s..."
+            pkill wlx-overlay-s
             break
         fi
     done
