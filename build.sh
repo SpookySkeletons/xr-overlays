@@ -11,8 +11,8 @@ cmake ..
 cmake --build .
 cd ../..
 
-# Build wlx-overlay-s submodule
-cd wlx-overlay-s
+# Build wlx-overlay-x submodule
+cd wlx-overlay-x
 cargo build --release
 cd ..
 
