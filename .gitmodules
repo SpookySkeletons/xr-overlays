@@ -4,9 +4,6 @@
 [submodule "lovr-playspace"]
 	path = lovr-playspace
 	url = https://github.com/SpookySkeletons/lovr-playspace
-[submodule "wlx-overlay-x"]
-	path = wlx-overlay-x
-	url = https://github.com/galister/wlx-overlay-x
 [submodule "index_camera_passthrough"]
 	path = index_camera_passthrough
 	url = https://github.com/yshui/index_camera_passthrough
