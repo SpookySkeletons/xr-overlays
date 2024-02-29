@@ -19,5 +19,5 @@ cd ..
 # Build index_camera_passthrough submodule
 # This cannot be build as release or it will crash
 cd index_camera_passthrough
-cargo build
+cargo build --release
 cd ..

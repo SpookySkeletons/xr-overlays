@@ -14,7 +14,7 @@ trap cleanup SIGINT
 
 # Run the index_camera_passthrough command in the background
 # This cannot be build as release or it will crash
-(cd ./index_camera_passthrough/ && cargo run) &
+(cd ./index_camera_passthrough/ && cargo run --release) &
 
 # Run the wlx-overlay-s command
 (cd ./wlx-overlay-s/ && cargo run --release) &
