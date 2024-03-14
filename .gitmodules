@@ -1,6 +1,7 @@
 [submodule "lovr"]
 	path = lovr
-	url = https://github.com/bjornbytes/lovr
+	url = https://github.com/SpookySkeletons/lovr
+	branch = stable
 [submodule "lovr-playspace"]
 	path = lovr-playspace
 	url = https://github.com/SpookySkeletons/lovr-playspace
